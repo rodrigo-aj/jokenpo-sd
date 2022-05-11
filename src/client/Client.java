@@ -88,7 +88,7 @@ public class Client {
         boolean validaEntradaTipoUsuario = false;
 
         do {
-            System.out.println("\n1. Jogador vs Jogador\n2. Jogador vs CPU");
+            System.out.println("\n1. Jogador vs Jogador\n2. CPU vs Jogador");
 
             if (enter.hasNextInt()) {
                 numeroDigitado = enter.nextInt();
